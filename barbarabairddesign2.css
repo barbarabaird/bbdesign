@@ -1,0 +1,177 @@
+
+body,
+html{
+     margin:0;
+     padding:0;
+     height: auto; 
+     height: 100%;
+     min-height: 100%;
+}
+
+.home{
+	font-family: architects-daughter;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 120px;
+	text-align: center;
+	color: #990000;
+	text-shadow: 5px 5px 3px #3D3B3B;
+	background-image: url(computer.png);
+	background-color: #cccccc;	
+	vertical-align: middle;
+	white-space: normal;
+	height: 85%;
+	margin-bottom: 0px;
+
+}
+
+.homelogo { margin-top: 60px; }
+
+.aboutheader {
+	font-family: architects-daughter;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 100px;
+	text-align: center;
+	float: right;
+	color: #990000;
+	text-shadow: 5px 5px 3px #3D3B3B;
+	height: 4in;
+	vertical-align: middle;
+	white-space: normal;
+	width: 100%;
+	line-height: 4in;
+	background-image: url(books.png);
+}
+.portfolioheader {
+	font-family: architects-daughter;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 100px;
+	text-align: center;
+	float: right;
+	color: #990000;
+	text-shadow: 5px 5px 3px #3D3B3B;
+	height: 4in;
+	vertical-align: middle;
+	white-space: normal;
+	width: 100%;
+	line-height: 4in;
+	background-image: url(planner.png);
+}
+.contactheader {
+	font-family: architects-daughter;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 100px;
+	text-align: center;
+	float: right;
+	color: #990000;
+	text-shadow: 5px 5px 3px #3D3B3B;
+	height: 4in;
+	vertical-align: middle;
+	white-space: normal;
+	width: 100%;
+	line-height: 4in;
+}
+.topnav {
+	list-style-type: none;
+	margin-left: 10px;
+	overflow: hidden;
+	background-color: #333;
+	clear: none;
+	text-align: center;
+	float: right;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.topnav li  {
+	text-align: center;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-right: 30px;
+}
+
+.topnav li a  {
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding-top: 14px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 14px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 20px;
+}
+.topnav li a:hover {background-color: #555;}
+.topnav li.icon {display: none;}
+
+
+.logo {
+	float: left;
+	margin-left: 30px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.main {
+	background-image: url(marble.png);
+	clear: both;
+	 height: 50%;
+	
+}
+
+.bab {margin-left: 50px;
+	margin-top: 30px;
+float: left;
+border: 10px ridge #333;
+
+}
+
+
+.contact {
+	background-image: url(keyboard.png);
+}
+
+
+p {
+}
+h1 {
+	float: right;
+	width: 50%;
+	margin-right: 50px;
+	color: #990000;
+	font-family: architects-daughter;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 90px;
+	text-align: center;
+}
+h2 {
+	width: 50%;
+	float: right;
+	text-align: center;
+	margin-right: 50px;
+}
+
+.footer {
+	position: relative;
+	width: 100%;
+	float: right;
+	clear: both;
+	background-color: #333;
+	font-family: tahoma,arial,sans-serif;
+	color: #990000;
+	font-size: 15px;
+	font-style: italic;
+	text-align: center;
+	padding: 10px;
+	height: 1.50in;
+        }
+  
+
+#valid {
+	float: right;
+}     
