@@ -270,7 +270,7 @@ ul.enlarge span{
 	padding: 10px;
 	text-align: left;
 	color: #4D5052;
-	-webkit-box-shadow: 0 0 20px rgba(0,0,0, .75));
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0, .75);
 	-moz-box-shadow: 0 0 20px rgba(0,0,0, .75);
 	box-shadow: 0 0 20px rgba(0,0,0, .75);
 	-webkit-border-radius: 8px;
@@ -300,8 +300,6 @@ ul.enlarge li:hover:nth-child(3) span{
 left: -200px; 
 }
 
-ul.enlarge img, ul.enlarge span{
-behavior: url(pie/PIE.htc); 
-}
+
 .porth2 {
 }
