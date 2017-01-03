@@ -35,7 +35,6 @@ html{
 	float: right;
 	color: #990000;
 	text-shadow: 5px 5px 3px #3D3B3B;
-	vertical-align: middle;
 	white-space: normal;
 	width: 100%;
 	background-image: url(books.png);
@@ -43,34 +42,30 @@ html{
 .portfolioheader {
 	font-family: architects-daughter;
 	font-style: normal;
-	font-weight: 900;
-	font-size: 80px;
+	font-weight: 400;
+	font-size: 100px;
 	text-align: center;
 	float: right;
 	color: #990000;
 	text-shadow: 5px 5px 3px #3D3B3B;
-	height: 4in;
-	vertical-align: middle;
 	white-space: normal;
 	width: 100%;
-	line-height: 4in;
 	background-image: url(planner.png);
 }
 .contactheader {
 	font-family: architects-daughter;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 80px;
+	font-size: 100px;
 	text-align: center;
 	float: right;
 	color: #990000;
 	text-shadow: 5px 5px 3px #3D3B3B;
-	height: 4in;
-	vertical-align: middle;
 	white-space: normal;
 	width: 100%;
-	line-height: 4in;
 }
+
+
 .topnav {
 	list-style-type: none;
 	margin-left: 10px;
@@ -83,6 +78,7 @@ html{
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
+
 .topnav li  {
 	text-align: center;
 	display: inline-block;
@@ -103,9 +99,9 @@ html{
 	transition: 0.3s;
 	font-size: 24px;
 }
+
 .topnav li a:hover {background-color: #555;}
 .topnav li.icon {display: none;}
-
 
 .logo {
 	float: left;
@@ -114,9 +110,12 @@ html{
 	margin-bottom: 20px;
 }
 .main {
-	background-image: url(marble.png);
+	background-image: url(greenbcg.png);
 	clear: both;
-	margin-top: 40px;
+	height: auto;
+	float: left;
+	width: 100%;
+	
 	font-size: 30px;
 	text-align: center;
 }
@@ -151,8 +150,6 @@ html{
 	width: 100%;
 }
 
-
-
 h1 {
 	float: right;
 
@@ -177,8 +174,6 @@ h1 {
 
 	height: 50px;
 	}
-
-
 .main p {
 	margin: 10px;
 	padding: 20px;
@@ -225,16 +220,11 @@ h2 {
 	width: 100%;
 }
 
-
-
 .footer a:link {color:#990000;}        
   
-
 #valid {
 	float: right;
 }     
-
-
 
 ul.enlarge{
 	list-style-type: none;
@@ -247,10 +237,10 @@ ul.enlarge{
 	float: left;
 }
 ul.enlarge li{
-display:inline-block; 
-position: relative;
-z-index: 0; 
-margin:10px 40px 0 20px;
+	display:inline-block; 
+	position: relative;
+	z-index: 0; 
+	margin:10px 40px 0 20px;
 }
 ul.enlarge img{
 	background-color: #eae9d4;
@@ -282,24 +272,23 @@ ul.enlarge span{
 	font-weight: 400;
 }
 ul.enlarge li:hover{
-z-index: 50;
-cursor:pointer;
+	z-index: 50;
+	cursor:pointer;
 }
 ul.enlarge span img{
-padding:2px;
-background:#ccc;
+	padding:2px;
+	background:#ccc;
 }
 ul.enlarge li:hover span{ 
-top: -300px; 
-left: 5px; /*distance from the left of the thumbnail to the left of the popup image*/
+	top: -300px; 
+	left: 5px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 ul.enlarge li:hover:nth-child(2) span{
-left: -100px; 
+	left: -100px; 
 }
 ul.enlarge li:hover:nth-child(3) span{
-left: -200px; 
+	left: -200px; 
 }
-
 
 .porth2 {
 }
